@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    image: yuzero218/apache_rails:ver1
+    container_name: apache_rails
+    ports:
+      - "3005:3005"
+    privileged: true
+    command: /sbin/init
+    restart: always
