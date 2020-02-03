@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    image: yuzero218/apache_rails:ver1
+    image: yuzero218/apache_rails:ver2
     container_name: apache_rails
     ports:
       - "3005:3005"
